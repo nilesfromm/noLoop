@@ -1,0 +1,29 @@
+#N canvas 737 29 606 460 10;
+#X obj 228 148 textfile;
+#X obj 228 67 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 228 255 print;
+#X msg 261 123 read s.txt;
+#X msg 261 98 rewind;
+#X obj 228 173 list;
+#X floatatom 365 107 5 0 0 0 - - -, f 5;
+#X msg 365 178 adddollar 4;
+#X msg 365 136 set adddollar \$1;
+#X msg 327 179 set;
+#X msg 228 229 \$4;
+#X obj 327 149 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X connect 0 0 5 0;
+#X connect 1 0 0 0;
+#X connect 1 0 4 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 10 0;
+#X connect 6 0 8 0;
+#X connect 6 0 11 0;
+#X connect 7 0 10 0;
+#X connect 8 0 7 0;
+#X connect 9 0 10 0;
+#X connect 10 0 2 0;
+#X connect 11 0 9 0;
+#X connect 11 0 7 0;
