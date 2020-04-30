@@ -1,9 +1,7 @@
 # noLoop
 PureData patch for noLoop Synth
 
-<img src="https://github.com/nilesfromm/noLoop/blob/master/poster.pdf"></img>
-
-<embed src="https://github.com/nilesfromm/noLoop/blob/master/poster.pdf" type="application/pdf">
+<embed src="https://github.com/nilesfromm/noLoop/blob/master/poster.pdf">
 
 Build Photos:
 
